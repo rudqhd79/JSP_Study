@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 	
 Calculator calc = new Calculator();
-<jsp : useBean id="calc"	/>
+<jsp:useBean id="calc"/>	<!-- jsp : 는 액션태그이며 액션태그의 useBean은 액션태그 중 하나이다. 의미는 객체를 생성한다는 의미를 가진다 -->
 
 <!-- n1, n2, op의 모든 변수를 set으로 Calculator 클래스의 필드값에 저장된다 -->
 calc.setN1(request.getParameter("n1"));	
