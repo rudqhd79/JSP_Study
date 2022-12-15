@@ -14,6 +14,7 @@
 <!-- form 태그 방식과는 다르게 정보를 넘기는 방식이다 -->
 <!-- page_control_end.jsp 파일로 정보가 이동한다 -->
 	<jsp:forward page="page_control_end.jsp">
+	<!-- jsp:param은 액션 사용 시 파라미터 값을 추가하거나 수정한다 -->
 		<jsp:param value="000-3333-3333" name="tel" />
 	</jsp:forward>
 </body>

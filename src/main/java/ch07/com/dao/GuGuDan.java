@@ -12,7 +12,7 @@ public class GuGuDan {
 	public String process(int num) {
 		String a = "";
 		for (int i = 1; i < 10; i++) {
-			a += num + "*" + i + "=" + num*i + "<br />";
+			a += num + "*" + i + "=" + num * i + "<br />";
 		}
 		return a;
 	}
