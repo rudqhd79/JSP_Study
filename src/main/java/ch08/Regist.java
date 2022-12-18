@@ -1,4 +1,4 @@
-package TEST.MVC;
+package ch08;
 
 public class Regist {
 	private String id;
@@ -6,13 +6,15 @@ public class Regist {
 	private String address;
 	private String grade;
 	private String phone;
+	private String korea;
 	
-	public Regist(String id, String name, String address, String grade, String phone) {
+	public Regist(String id, String name, String address, String grade, String phone, String korea) {
 		this.id = id;
 		this.name = name;
 		this.address = address;
 		this.grade = grade;
 		this.phone = phone;
+		this.setKorea(korea);
 	}
 
 	public String getId() {
@@ -53,5 +55,13 @@ public class Regist {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	public String getKorea() {
+		return korea;
+	}
+
+	public void setKorea(String korea) {
+		this.korea = korea;
 	}
 }

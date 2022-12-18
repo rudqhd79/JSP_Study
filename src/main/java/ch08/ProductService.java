@@ -25,7 +25,7 @@ public class ProductService {
 		return new ArrayList<>(products.values());
 	}
 	
-	//id로 원하는 상품을 가져오는 메소드(select * from where id="102")
+	//id로 원하는 상품을 가져오는 메소드(select * from where id="1")
 	public Product find(String id) {
 		return products.get(id);
 	}
